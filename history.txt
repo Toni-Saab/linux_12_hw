@@ -1,0 +1,57 @@
+    1  git --version
+    2  ls -la ~/.ssh
+    3  cd ~/.ssh
+    4  ls -la
+    5  ssh-keygen -t rsa -b 2048
+    6  ls -la
+    7  cat id_rsa.pub
+    8  ssh ec-2user@linux.itcareerhub.de
+    9  ssh ec-2user@linux.itcareerhub.de
+   10  ssh ec2-user@linux.itcareerhub.de
+   11  ssh ec2-user@linux.itcareerhub.de
+   12  date
+   13  date > my_file.txt
+   14  date -h >> my_file.txt
+   15  ls
+   16  date > my_file.txt
+   17  df -h >> my_file.txt
+   18  history | tail -n 3 >> my_file.txt
+   19  grep "root" /etc/group | wc -l >> my_file.txt
+   20  clear
+   21  ssh ec2-user@linux.itcareerhub.de
+   22  ssh ec2-user@linux.itcareerhub.de
+   23  ssh ec2-user@linux.itcareerhub.de
+   24  [200~ssh ec2-user@linux.itcareerhub.de~
+   25  ssh ec2-user@linux.itcareerhub.de
+   26  mkdir git_intro
+   27  cd git_intro
+   28  git init
+   29  git add shkiper.jpg
+   30  git commit -m "Add photo Shkiper pinguine"
+   31  git remote add origin https://github.com/Toni-Saab/git_intro.git
+   32  git push -u origin main
+   33  mkdir git-branch
+   34  cd git-branch
+   35  git init
+   36  git checkout -b gitignore
+   37  nano .gitignore
+   38  git add .gitignore
+   39  git commit -m "Added file .gitignore"
+   40  git remotre add origin https://github.com/Toni-Saab/git-branch.git
+   41  git remote add origin https://github.com/Toni-Saab/git-branch.git
+   42  git push -u origin gitignore
+   43  ssh ec2-user@linux.itcareerhub.de
+   44  git clone https://github.com/Toni-Saab/linux_12_hw.git
+   45  cd linux_12_hw
+   46  git checkout -b feature
+   47  echo "*.ini" >> .gitignore
+   48  git add .
+   49  git commit -m "Feature: добавил строку '*.ini' в .gitignore"
+   50  git push origin feature
+   51  git checkout feature
+   52  git commit --amend -m "Feature: Добавил ИзМеНеНеНиЯ в.gitignore (ammend)"
+   53  git push origin feature --force
+   54  git checkout main
+   55  git merge feature
+   56  git push origin main
+   57  history > history.txt
