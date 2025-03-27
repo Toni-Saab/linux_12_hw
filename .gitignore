@@ -8,3 +8,4 @@ venv/
 config.ini
 *.log
 *.tmp
+*.ini
